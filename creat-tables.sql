@@ -43,4 +43,11 @@ create table orders(
 );
 
 -- تعداد غذا ها
-create table order_
+create table order_details(
+    order_item_id int auto_increment primary key ,
+    order_id int,
+    menu_id int,
+    food_sum int not null ,
+    foreign key (order_id) references orders(order_id),
+    foreign key (menu_id) references menus(menu_id)
+);
