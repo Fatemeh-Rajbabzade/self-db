@@ -106,3 +106,4 @@ insert-data.sql: فایل SQL برای وارد کردن داده‌های نم�
 
 drop-tables.sql: فایل SQL برای حذف جداول و بازنشانی دیتابیس.
 
+![insert](https://github.com/user-attachments/assets/32ff2e70-13b5-4121-8570-bef53e084686)![Uploading insert.png…]()
