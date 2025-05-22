@@ -59,3 +59,17 @@ values (3, '2025-05-21');
 insert into orders(user_id, order_date)
 values (4, '2025-05-21');
 
+-- insert for order-details
+insert into order_details(order_id, menu_id, food_sum)
+values (1,1, 1);
+
+insert into order_details(order_id, menu_id, food_sum)
+values (2, 2, 1);
+
+insert into order_details(order_id, menu_id, food_sum)
+values (3, 3,2);
+
+insert into order_details(order_id, menu_id, food_sum)
+values (4, 4,1);
+
+select * from order_details;
